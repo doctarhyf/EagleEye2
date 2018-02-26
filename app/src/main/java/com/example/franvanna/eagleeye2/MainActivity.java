@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
+
+
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
@@ -88,9 +90,13 @@ public class MainActivity extends AppCompatActivity
                 intent = new Intent(this, ActivityVoteSimulation.class);
                 break;
 
+
             case R.id.mainMenuListElec:
-                intent = new Intent(this, ActivityLoisElec.class);
+                intent = new Intent(this, ActivityListElectorral.class);
                 break;
+
+            case R.id.mainMenuResults:
+                intent = new Intent(this, ActivityResults.class);
 
         }
 
@@ -136,7 +142,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_lois_elec){
 
-            intent = new Intent(this, )
+            intent = new Intent(this, ActivityLoisElec.class);
         }
 
 

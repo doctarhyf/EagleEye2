@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EagleEye2</string>
+    <string name="app_name">CENI RDC</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -606,4 +606,12 @@ Gustave BEYA SIKU
 Directeur de Cabinet
 </string>
     <string name="nav_lois_elec">Lois electorale</string>
+    <string name="txt_remplir">Veuillez remplir toutes les cases ci-dessous</string>
+    <string name="txt_hint_name">Nom</string>
+    <string name="txt_hint_surname">Post-nom</string>
+    <string name="txt_hint_birthplace">Lieu de naissance</string>
+    <string name="txt_hint_dob">Date de naissance</string>
+    <string name="txt_zone_cands">Zone reservee aux candidats.</string>
+    <string name="txt_btn_insc">Suis-je inscrit dans la liste electorale?</string>
+    <string name="title_results">Choix de l\'echeance</string>
 </resources>
