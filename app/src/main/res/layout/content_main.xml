@@ -19,8 +19,9 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
+            
             android:layout_marginRight="20dp"
             android:src="@drawable/sim"
             />
@@ -54,8 +55,8 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
             android:layout_marginRight="20dp"
             android:src="@drawable/le"
             />
@@ -88,8 +89,8 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
             android:layout_marginRight="20dp"
             android:src="@drawable/bv"
             />
@@ -122,8 +123,8 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
             android:layout_marginRight="20dp"
             android:src="@drawable/cands"
             />
@@ -156,8 +157,8 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
             android:layout_marginRight="20dp"
             android:src="@drawable/res"
             />
@@ -190,8 +191,8 @@
 
         <ImageView
 
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" android:scaleType="centerInside" 
             android:layout_marginRight="20dp"
             android:src="@drawable/faq"
             />

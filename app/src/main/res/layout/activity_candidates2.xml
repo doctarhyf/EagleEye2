@@ -10,9 +10,10 @@
 
 
 
-
-    <android.support.constraint.ConstraintLayout
+<android.support.constraint.ConstraintLayout 
+        android:background="@drawable/color_state_row_menu" 
         android:clickable="true"
+        
         android:onClick="onVoteTypeClicked"
         android:id="@+id/vote_type_prez"
         android:layout_width="match_parent"
@@ -27,12 +28,12 @@
            android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ceni"
+            android:src="@drawable/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -40,8 +41,9 @@
 
     </android.support.constraint.ConstraintLayout>
 
-
-    <android.support.constraint.ConstraintLayout
+<android.support.constraint.ConstraintLayout 
+        android:background="@drawable/color_state_row_menu"
+        android:clickable="true"
         android:id="@+id/vot_type_legs"
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -55,12 +57,12 @@
         android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ceni"
+            android:src="@drawable/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -68,8 +70,9 @@
 
     </android.support.constraint.ConstraintLayout>
 
-
-    <android.support.constraint.ConstraintLayout
+<android.support.constraint.ConstraintLayout
+        android:clickable="true"
+        android:background="@drawable/color_state_row_menu" 
         android:id="@+id/vote_type_prov"
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -84,12 +87,13 @@
         android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ceni"
+            android:src="@drawable/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -97,8 +101,9 @@
 
     </android.support.constraint.ConstraintLayout>
 
-
-    <android.support.constraint.ConstraintLayout
+<android.support.constraint.ConstraintLayout
+        android:clickable="true"
+        android:background="@drawable/color_state_row_menu" 
         android:id="@+id/vot_type_urb"
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -113,12 +118,12 @@
         android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ceni"
+            android:src="@drawable/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -126,8 +131,9 @@
 
     </android.support.constraint.ConstraintLayout>
 
-
-    <android.support.constraint.ConstraintLayout
+<android.support.constraint.ConstraintLayout
+        android:clickable="true"
+        android:background="@drawable/color_state_row_menu" 
         android:id="@+id/vote_type_local"
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -142,12 +148,12 @@
         android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ceni"
+            android:src="@drawable/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

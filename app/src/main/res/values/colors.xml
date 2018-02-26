@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00a2dd</color>
+    <color name="cdBlueDark">#01698f</color>
     <color name="cdBlue">#00a2dd</color>
-    <color name="colorPrimaryDark">#f2d620</color>
-    <color name="colorAccent">#b3172a</color>
+    <color name="cdYellow">#f2d620</color>
+    <color name="cdRed">#b3172a</color>
     <color name="transp">#0000</color>
     <color name="gray">#cacaca</color>
+    <color name="grayMenu">#5fdbdbdb</color>
 </resources>

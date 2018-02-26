@@ -3,9 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/cdBlue</item>
+        <item name="colorPrimaryDark">@color/cdBlueDark</item>
+        <item name="colorAccent">@color/cdRed</item>
+        <item name="editTextColor">@color/cdRed</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -13,7 +14,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+        <item name="colorPrimary">@color/cdBlue</item>
+        <item name="colorPrimaryDark">@color/cdBlueDark</item>
+        <item name="colorAccent">@color/cdRed</item>
+        <item name="editTextColor">@color/cdRed</item>
+
+    </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
@@ -40,7 +48,7 @@
 
     <style name="MenuTextSubtitle">
         <item name="android:layout_weight">1</item>
-        <item name="android:textColor">@color/cdBlue</item>
+        <item name="android:textColor">@color/cdRed</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
     </style>
