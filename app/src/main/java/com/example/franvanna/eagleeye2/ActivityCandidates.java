@@ -25,7 +25,7 @@ public class ActivityCandidates extends AppCompatActivity {
 
     public void onVoteTypeClicked(View view) {
 
-        Log.e(TAG, "onVoteTypeClicked:"+ view.getId() );
+        Log.e(TAG, "onVoteTypeClicked: " + view.getId() );
     }
 
     @Override

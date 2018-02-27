@@ -20,7 +20,7 @@ public class ActivityLogo extends AppCompatActivity {
 
 
                 try {
-                    sleep(4000);
+                    sleep(3000);
                 } catch (InterruptedException e1) {
                     e1.printStackTrace();
                 }

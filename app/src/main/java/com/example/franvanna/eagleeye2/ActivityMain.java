@@ -2,6 +2,7 @@ package com.example.franvanna.eagleeye2;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,15 +23,26 @@ public class ActivityMain extends AppCompatActivity {
         uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ceni);
         playVid();
 
+        videoIntro.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                skipVid();
+            }
+        });
+
 
 
 
     }
 
-    public void onSkipVid(View view) {
-
+    public void skipVid(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void onSkipVid(View view) {
+
+        skipVid();
     }
 
     private void playVid() {

@@ -614,4 +614,14 @@ Directeur de Cabinet
     <string name="txt_zone_cands">Zone reservee aux candidats.</string>
     <string name="txt_btn_insc">Suis-je inscrit dans la liste electorale?</string>
     <string name="title_results">Choix de l\'echeance</string>
+    <string name="txt_msg_buro_vote">Merci de saisir, ci-dessous, votre numero d\'electeur tel que ecrit sur votre carte d\'electeur.</string>
+    <string name="votre_numero_d_electeur">votre numero d\'electeur</string>
+    <string name="ou_se_trouve_mon_bureau_de_vote">Ou se trouve mon bureau de vote ?</string>
+    <string name="action_play">PLAY</string>
+    <string name="action_news">News</string>
+    <string name="title_news">News</string>
+    <string name="title_officiel_result">Resultas Officiel</string>
+    <string name="txt_hint_annee">AAAA</string>
+    <string name="txt_hint_jour">JJ</string>
+    <string name="txt_hint_mois">MM</string>
 </resources>

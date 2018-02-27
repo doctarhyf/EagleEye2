@@ -1,5 +1,6 @@
 package com.example.franvanna.eagleeye2;
 
+import android.app.Application;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -63,14 +64,16 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            finish();
+
+            Log.e(TAG, "onBackPressed: " );
         }
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.main, menu);
+        //Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -91,12 +94,20 @@ public class MainActivity extends AppCompatActivity
                 break;
 
 
+
             case R.id.mainMenuListElec:
                 intent = new Intent(this, ActivityListElectorral.class);
                 break;
 
             case R.id.mainMenuResults:
                 intent = new Intent(this, ActivityResults.class);
+                break;
+
+            case R.id.mainMenuBuroVote:
+                intent = new Intent(this, ActivityBureauVote.class);
+                break;
+
+
 
         }
 
@@ -118,8 +129,18 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+
+
+
+        if (id == R.id.action_play) {
+            Intent intent = new Intent(this, ActivityMain.class);
+            startActivity(intent);
             return true;
+        }
+
+        if(id == R.id.action_news){
+            Intent intent = new Intent(this, ActivityNews.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

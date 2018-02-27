@@ -3,7 +3,6 @@
     package="com.example.franvanna.eagleeye2">
 
     <application
-
         android:allowBackup="true"
         android:icon="@drawable/ceni"
         android:label="@string/app_name"
@@ -13,7 +12,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ActivityAbout"
             android:label="@string/title_activity_about"
@@ -26,22 +25,18 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ActivityListElectorral" />
         <activity android:name=".ActivityResults" />
-        <activity android:name=".ActivityMain">
-
-        </activity>
-        <activity android:name=".ActivityLogo"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-
-            >
-
+        <activity android:name=".ActivityMain" />
+        <activity
+            android:name=".ActivityLogo"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
+        <activity android:name=".ActivityBureauVote" />
+        <activity android:name=".ActivityNews"></activity>
     </application>
 
 </manifest>

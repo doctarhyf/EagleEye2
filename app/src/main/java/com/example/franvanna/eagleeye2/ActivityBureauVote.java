@@ -5,17 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class ActivityResults extends AppCompatActivity {
+public class ActivityBureauVote extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_official_results);
+        setContentView(R.layout.activity_bureau_vote);
 
-        getSupportActionBar().setTitle(getResources().getString(R.string.title_officiel_result));
+
+        getSupportActionBar().setTitle("Mon bureau de vote");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
