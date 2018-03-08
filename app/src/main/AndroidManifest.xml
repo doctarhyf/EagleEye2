@@ -25,7 +25,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ActivityListElectorral" />
         <activity android:name=".ActivityResults" />
-        <activity android:name=".ActivityMain" />
+        <activity android:name=".ActivityIntroVid" />
         <activity
             android:name=".ActivityLogo"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -36,7 +36,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityBureauVote" />
-        <activity android:name=".ActivityNews"></activity>
+        <activity android:name=".ActivityNews" />
+        <activity android:name=".ActivityMain2"></activity>
     </application>
 
 </manifest>

@@ -25,7 +25,7 @@ public class ActivityLogo extends AppCompatActivity {
                     e1.printStackTrace();
                 }
 
-                Intent intent = new Intent(getApplicationContext(), ActivityMain.class);
+                Intent intent = new Intent(getApplicationContext(), ActivityIntroVid.class);
                 startActivity(intent);
                 finish();
             }

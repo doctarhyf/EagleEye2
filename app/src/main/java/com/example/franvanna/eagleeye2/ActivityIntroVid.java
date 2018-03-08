@@ -1,6 +1,5 @@
 package com.example.franvanna.eagleeye2;
 
-import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -9,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.VideoView;
 
-public class ActivityMain extends AppCompatActivity {
+public class ActivityIntroVid extends AppCompatActivity {
 
     private VideoView videoIntro;
     private Uri uri;
@@ -17,7 +16,7 @@ public class ActivityMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_vid_intro);
 
         videoIntro = findViewById(R.id.vidIntro);
         uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ceni);
@@ -36,7 +35,7 @@ public class ActivityMain extends AppCompatActivity {
     }
 
     public void skipVid(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, ActivityMain2.class);
         startActivity(intent);
     }
 

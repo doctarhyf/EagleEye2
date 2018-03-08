@@ -1,6 +1,5 @@
 package com.example.franvanna.eagleeye2;
 
-import android.app.Application;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -133,7 +132,7 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.action_play) {
-            Intent intent = new Intent(this, ActivityMain.class);
+            Intent intent = new Intent(this, ActivityIntroVid.class);
             startActivity(intent);
             return true;
         }
