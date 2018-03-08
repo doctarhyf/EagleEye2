@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity
 
     private static final String TAG = "EE";
 
+    // TODO: 3/8/2018 RENAME VARS PLUS DESIGN CHECK
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
